@@ -21,8 +21,6 @@ jobs:
                 with:
                     java-version: '25'
                     distribution: 'temurin'
-            -   name: Gradle Rechte setzen
-                run: chmod +x gradlew
             -   name: Java Kompilieren
                 run: ./gradlew compileJava
     test:
